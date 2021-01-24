@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN_UP</title>
+	<link rel="stylesheet" href="../css/sign_up.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../image/p1.png" type="image/x-icon">
+	<script type="text/javascript" src="../js/sign_up.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.0.0/sweetalert.min.js"> </script>
+	<script type="text/javascript"></script>
+</head>
+<body>
+<div class="background-color">
+	<div class="logo">
+
+		</div>
+		</div>
+		</a>
+		<hr>
+		<div id = "id01" class="modal">
+<form name="myForm" class="pizza-form" onsubmit="return validateForm()" method="post"> 
+	<p><big><b>SIGN UP</b></big></p><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUSERNAME:&nbsp<input  id="username"  type="text" name="username"><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp PASSWORD:&nbsp<input id="pass"   type="password" name="password"><br><br>
+CONFIRM PASSWORD:<input id="cnf" type="password" name="confirm_password"><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbspPHONE NUMBER:&nbsp<input class = "phone" type="tel" id="phone" value="+91" name="phone"><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp ENTER E-MAIL:<input id="mail" type="text" name="email"><br><br>
+<button type="button" class="cancel" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+<input class="btn" type="submit" name="submit" value="SIGN UP" onclick="f1()">
+<br>
+</input>
+</form>
+</div>
+<div class="buttons">
+	<a href="https://www.facebook.com/"><button class = "fb"type="button">Sign Up With Facebook</button></a>
+<a href="https://twitter.com/?lang=en-in"><button class = "twt" type="button">Sign Up With Twitter</button></a>
+<a href="https://www.google.com/gmail/about/"><button class="Gmail" type="button">Sign Up With G-mail</button></a>
+</div>
+<div class="footer">
+    <br>
+    <br>
+    <a href="../html/disclaimer.html">Disclaimer</a>
+    <a href="../html/sign_up.html">Sign Up</a>
+    <a href="../index.html">Home</a>
+    <a href="../html/contact_us.html">Contact Us</a>
+<div class="footer-1">
+    <h3>All Rights Reserved. Copyright © Rang FoodWorks Ltd.</h3>
+</div>    
+</div>
+<div class="maintext">
+</div>
+<div id="boxes">
+<div style="top: 50%; left: 50%; display: none;" id="dialog" class="window"> 
+<div id="san">
+<a href="#" class="close agree"><img src="../image/cancel.png" width="25" style="float:right; margin-right: -25px; margin-top: -20px;"></a>
+<p>For More Choice Of Pizza Go <a href="pizza-mania.html">Here</a></p>
+</div>
+</div>
+<div style="width: 2478px; font-size: 32pt; color:white; height: 1202px; display: none; opacity: 0.4;" id="mask"></div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script> 
+<script src="../js/sign_up.js"></script>
+</body>
+</html>

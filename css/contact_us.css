@@ -1,0 +1,101 @@
+body
+{
+background-color:#2c3d59;
+}
+html
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.header-img
+{
+	background-image: url('pizza1.png');
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	z-index: -1;
+}
+.header
+{
+	background-color: lightblue;
+}
+.header h1
+{
+	position:absolute;
+	margin-left: 40%;
+}
+.content h1
+{
+	color:orange;
+	background-color: black;
+	border-radius: 10px;
+}	
+.container
+{
+	background-color: #fff;
+    border-radius: 8px;	
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 470px;
+    line-height: 35px;
+    position: absolute;
+    left: 25%;
+}
+.sbmt
+{
+	width: 100%;
+	background-color: orange;
+	position: absolute;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+	text-shadow: grey 2px;
+}
+form
+{
+}
+.Feedback h2
+{
+	position: absolute;
+	margin-left: 40%; 
+	margin-top: -50px;
+	font-weight: 900;
+	font-size: 30px;
+
+}
+.footer
+{
+	background-color: black;
+	margin-top:35%;
+	color: silver;
+	border-radius: 2px;
+}
+.footer a
+{
+	text-decoration: none;
+	color: orange;
+	display: inline-block;
+	position: relative;
+	margin-top: 2%;
+	margin:0% 10%;
+	padding: 20px;
+}
+.footer a:hover
+{
+	border-width: 2px;
+	border-color: orange;
+	border-style: solid;
+}
+.footer-1
+{
+
+}
+.footer-1 h3
+{
+	margin-top: 5%;
+	margin-left: 62%;
+}
+details a
+{
+	display: block;
+}

@@ -1,0 +1,180 @@
+body
+{
+	background-image: url('../image/pic1.jpg');
+	background-size: cover;
+}
+html
+{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.logo
+{
+	background-image: url('../image/pizza1.png');
+	background-size: cover;
+	background-color: lightblue;
+	height: 200px;
+	width: 200px;
+	margin-left: 150px;
+	border-radius: 14%;
+}
+hr
+{
+	border-width: 5px;
+
+}
+.pizza-form
+{
+	background-color: #474e5d;
+	border: 1px solid #888;
+	border-radius: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 2% 30%;
+}
+.pizza-form p
+{
+	margin-left: -500px;
+}
+
+input[type=text], input[type=password],input[type=tel] {
+  width: 20%;
+  height: 5%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.cancel
+{
+	background-color:#2c3d59;
+	color: #b380ff;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 0% 5%;
+}
+.btn
+{
+	font-size: 20px;
+	color: #b380ff;
+	background-color:#2c3d59;
+	border-radius: 10px;
+}
+.w3-content 
+{
+position: absolute;
+margin-top:-500px;
+z-index: -1;
+margin-left: 300px;
+background-size: cover;
+width: 100%;
+}
+.fb
+{
+	background-color: #3b5998;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 0% 7%;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	font-weight: 500;
+	margin-left: 400px;
+}
+.twt
+{
+	background-color: #00acee;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 0% 10%;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	font-weight: 500;
+	
+}
+.Gmail
+{
+	background-color: #D44638;
+	font-size: 20px;
+	border-radius: 10px;
+	margin: 0% 10%;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	font-weight: 500;
+	margin-left: 660px;
+}
+.footer
+{
+	background-color: black;
+	margin-top:5%;
+	color: silver;
+	border-radius: 2px;
+}
+.footer a
+{
+	text-decoration: none;
+	color: orange;
+	display: inline-block;
+	position: relative;
+	margin-top: 2%;
+	margin:0% 8%;
+	padding: 20px;
+	font-size: 20px;
+}
+.footer a:hover
+{
+	border-width: 2px;
+	border-color: orange;
+	border-style: solid;
+}
+.footer-1
+{
+
+}
+.footer-1 h3
+{
+	margin-top: 5%;
+	margin-left: 62%;
+}
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#26262c;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:850px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 5px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding: 10px 10px 10px 10px;
+  background-color:#ffffff;
+  font-size: 15pt;
+}
+.agree:hover{
+ background-color: #D1D1D1;
+}
+.popupoption:hover{
+ background-color:#D1D1D1;
+ color: green;
+}
+.popupoption2:hover{
+ color: red;
+}
